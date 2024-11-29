@@ -2,7 +2,7 @@
 #1- write bash script to create project based on Makefile
 # shellcheck disable=SC2188
 <<Task3
-4- write a wiki bash script to help you on development
+3- write a wiki bash script to help you on development
 - give you example about c++ hello world
 - give you example about python hello world
 - give you example about linux commands
@@ -21,6 +21,7 @@ if [ "$selected_language" = "Cpp" ];then
     echo '}' >>File1.cpp
     g++ File1.cpp && ./a.out
     rm File1.cpp
+    rm a.out
     
 elif [ "$selected_language" = "Python" ];then
     echo "Creating Python File<------>"
