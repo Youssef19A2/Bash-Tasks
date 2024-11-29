@@ -1,6 +1,4 @@
 #!/bin/bash
-#1- write bash script to create project based on Makefile
-# shellcheck disable=SC2188
 <<Task3
 3- write a wiki bash script to help you on development
 - give you example about c++ hello world
