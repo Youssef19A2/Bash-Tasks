@@ -1,6 +1,0 @@
-[unit]
-Description=hello
-[Service]
-ExecStart=/home/youssef-ahmed-7/Desktop/VsCode/Bash_Tests/hello.sh
-[Install]
-WantedBy=multi-user.target
